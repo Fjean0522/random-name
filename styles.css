@@ -1,0 +1,36 @@
+* {
+    /* border: 1px solid; */
+}
+
+body {
+    margin: 0px;
+    background: radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%);
+    background-size: 100%;
+}
+
+.gen-container {
+    height: 300px;
+    width: 500px;
+    margin: 100px 370px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+
+#name-display {
+    height: 16px;
+    width: 24px;
+}
+
+/* BUTTON */
+#gen-name {
+    height: 80px;
+    width: 124px;
+    border-radius: 8px;
+    margin-top: 55px;
+    margin-bottom: 45px;
+}
