@@ -1,7 +1,3 @@
-* {
-    /* border: 1px solid; */
-}
-
 body {
     margin: 0px;
     background: radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%);
@@ -22,8 +18,8 @@ body {
 }
 
 #name-display {
-    height: 16px;
-    width: 24px;
+    font-size: 30px;
+    font-weight: bolder;
 }
 
 /* BUTTON */
@@ -31,7 +27,7 @@ body {
     height: 80px;
     width: 124px;
     border-radius: 8px;
-    margin-top: 55px;
+    margin-top: 36px;
     margin-bottom: 45px;
     font-weight: bold;
     font-size: 18px;
@@ -43,6 +39,7 @@ body {
     background-color: rgb(106, 158, 255);
     color: whitesmoke;
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 #gen-name:active {
