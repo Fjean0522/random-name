@@ -4,10 +4,16 @@ body {
     background-size: 100%;
 }
 
+.title {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(235, 246, 255);
+}
+
 .gen-container {
     height: 300px;
     width: 500px;
-    margin: 100px 370px;
+    margin: 70px 370px;
     border-radius: 10px;
     background-color: rgb(226, 240, 253);
     display: flex;
@@ -18,7 +24,7 @@ body {
 }
 
 #name-display {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bolder;
 }
 
